@@ -21,4 +21,4 @@ ZSH_THEME_RUBY_PROMPT_SUFFIX="]%{$reset_color%}"
 
 # Combine it all into a final right-side prompt
 RPS1="\$(git_custom_status)\$(ruby_prompt_info)${RPS1:+ $RPS1}"
-PROMPT='%{$FG[141]%}[$(shrink_path -f)]%B%{$FG[112]%}❱%{$FG[045]%}❱%{$FG[009]%}❱%b'
+PROMPT='%{$FG[141]%}[$(shrink_path -f)]%B%{$FG[112]%}❱%{$FG[045]%}❱%{$FG[009]%}❱%b '
